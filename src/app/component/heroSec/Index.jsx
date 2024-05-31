@@ -8,7 +8,7 @@ const HeroSection = () => {
 
 
   return (
-    <HeroContainer className=' '>
+    <HeroContainer>
       <Image src={Hero}  alt='image'/>
       <HeroContant>
 
