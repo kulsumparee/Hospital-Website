@@ -6,7 +6,7 @@ const LayoutComponent = (props) => {
   return (
     <div>
       <NavBar />
-      
+
       {props.children}
 
       <FooterSection/>

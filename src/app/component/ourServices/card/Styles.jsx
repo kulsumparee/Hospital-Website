@@ -23,7 +23,7 @@ export const Card = styled.div`
 
     `
 export const Carddiv = styled.div`
-     background-color: #FDEBD0;
+
       width: 100%;
    height: 400px;
    button{

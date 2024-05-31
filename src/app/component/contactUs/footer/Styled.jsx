@@ -28,7 +28,7 @@ Image{
 export const Title = styled.h3`
   font-size: 20px;
   font-weight: 600;
-  margin-bottom:20px;
+
   margin-top: 10%;
   
   `

@@ -12,13 +12,13 @@ import icon4 from "@/assest/icon/Icon 4.svg"
 const ContactFooter = () => {
     return (
         <Style.FooterContainer>
-            <Style.FooterContent className=' ml-14'>
+            <Style.FooterContent className=''>
               
                 <Style.FirstSection >
                     <Style.Title>Clinic Lorem Ipsum</Style.Title>
-                    <div>
-                        <div className='flex  mb-5'>
-                            <div className=' text-orange-700'>
+                    <div className=' mt-5'>
+                        <div className='flex  gap-5  mb-5'>
+                            <div className=' '>
                                 <Image src={icon1} alt='icon' />
                             </div>
                             <div>
@@ -26,7 +26,7 @@ const ContactFooter = () => {
                                 <p className=' w-64'>4517 Washington Ave. Manchester, Kentucky 39495</p>
                             </div>
                         </div>
-                        <div className='flex gap-5 items-start mb-5'>
+                        <div className='flex gap-5  mb-5'>
                             <div>
                                 <Image src={icon2} alt='icon' />
                             </div>

@@ -10,21 +10,31 @@ const ContactSection = () => {
   return (
     <Container className='   mt-20'>
 
-      <div className=' items-center flex flex-col  '>
-        <h1 className=' mt-10  text-[40px] font-bold'>Contact Us</h1>
+      <div className=' flex flex-col items-center text-center  '>
+        <h1 className=' mt-10    text-[40px] font-bold'>Contact Us</h1>
         <Image src={LineImg} alt='img'/>
       </div>
-      <div className=' sm:grid-cols-1 sm:text-center md:grid md:grid-cols-3 px-16 gap-14 mt-14 '>
-        <Image src={map} alt='icons' />
-        <Image src={map} alt='icons' />
-        <Image src={map} alt='icons' />
+      <div className=' px-14 mt-20 grid sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3    '>
+        <div>
+          <Image src={map} alt='icons' />
+          <ContactFooter />
+       </div>
+        <div>
+          <Image src={map} alt='icons' />
+          <ContactFooter />
+        </div>
+        <div>
+
+          <Image src={map} alt='icons' />
+          <ContactFooter />
+        </div>
       </div>
 
       <div className=' md:grid md:grid-cols-3 sm:grid-cols-1 sm:items-center'>
         
-        <ContactFooter />
-        <ContactFooter />
-        <ContactFooter />
+        
+       
+       
        
       </div>
     

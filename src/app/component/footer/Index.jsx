@@ -13,19 +13,19 @@ const FooterSection = () => {
   
   return (
       <Footer className=' '>
-          <div className='  md:flex sm:block justify-evenly '>
-              <div className=' w-[30%] '>
+          <div className='  md:flex sm:block  justify-between mx-8 '>
+              <div className=' w-[25%] '>
                   <div className=' flex gap-4 items-center mb-5'>
                       <Image src={logo} alt='logo' />
-                      <h1>Logo</h1>
+                      <h1 className=' font-bold text-lg'>Logo</h1>
                   </div>
                   <div>
-                      <p>Lorem ipsum dolor sit amet consectetur. Faucibus arcu ultrices gravida et dictumst duis gravida odio semper. Integer potenti viverra et interdum lobortis amet nisi lorem. Amet sed sit risus dictum dolor. Sem enim eget ac morbi placerat.</p>
+                      <p className=' '>Lorem ipsum dolor sit amet consectetur. Faucibus arcu ultrices gravida et dictumst duis gravida odio semper. Integer potenti viverra et interdum lobortis amet nisi lorem. Amet sed sit risus dictum dolor. Sem enim eget ac morbi placerat.</p>
                   </div>
               </div>
 
               <div className=''>
-                  <h1>Features</h1>
+                  <h1 className=' font-bold text-lg'>Features</h1>
 
                   <ul className=' mt-5'>
                       <li className=' pb-4'>Services</li>
@@ -38,8 +38,8 @@ const FooterSection = () => {
               </div>
 
               <div className=''>
-                  <h1>Follow Us</h1>
-                  <div className=' flex mt-10'>
+                  <h1 className=' font-bold text-lg'>Follow Us</h1>
+                  <div className=' flex mt-10 gap-3'>
                       <Image src={icon1} alt='image' />
                       <Image src={icon2} alt='image' />
                       <Image src={icon3} alt='image' />
