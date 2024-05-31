@@ -10,7 +10,6 @@ export const TeamContainer = styled.div`
 `
 export const Card = styled.div`
  background-color: #FDEBD0;
- padding: 20px;
  border-radius: 8px;
      
       

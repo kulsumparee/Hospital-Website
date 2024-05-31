@@ -12,12 +12,12 @@ const ContactSection = () => {
 
       <div className=' items-center flex flex-col  '>
         <h1 className=' mt-10  text-[40px] font-bold'>Contact Us</h1>
-        <Image src={LineImg} />
+        <Image src={LineImg} alt='img'/>
       </div>
       <div className=' sm:grid-cols-1 sm:text-center md:grid md:grid-cols-3 px-16 gap-14 mt-14 '>
-        <Image src={map} />
-        <Image src={map} />
-        <Image src={map} />
+        <Image src={map} alt='icons' />
+        <Image src={map} alt='icons' />
+        <Image src={map} alt='icons' />
       </div>
 
       <div className=' md:grid md:grid-cols-3 sm:grid-cols-1 sm:items-center'>

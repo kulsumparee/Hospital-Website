@@ -9,7 +9,7 @@ function PartnersSection() {
         <div>
             <div className='items-center flex flex-col '>
                 <h1 className=" text-5xl font-bold mt-20  mb-6 text-center">Send Us An Inquiry</h1>
-                <Image src={LineImg} />
+                <Image src={LineImg} alt='images'/>
             </div>
 
             <SlickCarousel/>

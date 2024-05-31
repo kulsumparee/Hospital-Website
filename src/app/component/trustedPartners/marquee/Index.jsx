@@ -69,7 +69,7 @@ function SlickCarousel() {
             <Marquee speed={150}>
                 {slides.map((data) =>
                     <div className=' w-62' key={data.id}>
-                        <Image src={data.img} className=' p-12' />
+                        <Image src={data.img} alt='image' className=' p-12' />
 
                     </div>
                 )}

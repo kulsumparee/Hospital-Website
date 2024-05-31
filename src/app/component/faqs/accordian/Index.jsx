@@ -57,7 +57,7 @@ const Accordion = () => {
                         onClick={() => handleToggle(index)}
                     >
                         <span className=" font-semibold text-sm">{item.title}</span>
-                        <span className="ml-2 ">{activeIndex === index ? <Image src={downArrow}/> : <Image src={upArrow}/>}</span>
+                        <span className="ml-2 ">{activeIndex === index ? <Image src={downArrow} alt='arrow'/> : <Image src={upArrow} alt='arrow'/>}</span>
                     </button>
                     {activeIndex === index && (
                         <div className="p-4">

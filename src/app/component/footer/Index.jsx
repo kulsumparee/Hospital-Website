@@ -5,25 +5,18 @@ import icon1 from "@/assest/ReactIcons/Group 38262.svg"
 import icon2 from "@/assest/ReactIcons/Group 38264.svg"
 import icon3 from "@/assest/ReactIcons/Group 38265.svg"
 import icon4 from "@/assest/ReactIcons/Group 38266.svg"
-import styled from 'styled-components'
+import { Footer } from './Styles'
+
 
 
 const FooterSection = () => {
-    const Footer = styled.footer`
-
-
-    background-color:#77513E ;
-    color: white;
-    padding: 40px;
-
-   
-    `
+  
   return (
       <Footer className=' '>
           <div className='  md:flex sm:block justify-evenly '>
               <div className=' w-[30%] '>
                   <div className=' flex gap-4 items-center mb-5'>
-                      <Image src={logo} />
+                      <Image src={logo} alt='logo' />
                       <h1>Logo</h1>
                   </div>
                   <div>
@@ -47,10 +40,10 @@ const FooterSection = () => {
               <div className=''>
                   <h1>Follow Us</h1>
                   <div className=' flex mt-10'>
-                      <Image src={icon1} />
-                      <Image src={icon2} />
-                      <Image src={icon3} />
-                      <Image src={icon4} />
+                      <Image src={icon1} alt='image' />
+                      <Image src={icon2} alt='image' />
+                      <Image src={icon3} alt='image' />
+                      <Image src={icon4} alt='image' />
                  </div>
 
 

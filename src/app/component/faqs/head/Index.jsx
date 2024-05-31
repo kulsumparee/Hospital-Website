@@ -13,7 +13,7 @@ const FaqsSection = () => {
 
                 <div className=' items-center flex flex-col '>
                     <Title className='  text-[40px] font-bold'>FAQs</Title>
-                    <Image src={LineImg} className=' w-64' />
+                    <Image src={LineImg} alt='logo' className=' w-64' />
                 </div>
 
 

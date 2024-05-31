@@ -6,10 +6,10 @@ import Image from 'next/image'
 const FormContent = () => {
     return (
 
-        <styled.FormContent className=" class  px-20 mt-28 h-[676px]">
+        <styled.FormContent className="  px-20 mt-28 pb-10">
             <div className='items-center flex flex-col '>
                 <h1 className=" text-5xl font-bold mt-20  mb-6 text-center">Send Us An Inquiry</h1>
-                <Image src={LineImg} />
+                <Image src={LineImg} alt='image' />
            </div>
             <form className=' mt-20'>
                 <div className=' lg:flex justify-between  sm:block'>

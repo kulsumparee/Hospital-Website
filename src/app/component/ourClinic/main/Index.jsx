@@ -15,7 +15,7 @@ const ClinicSection = () => {
 
           <div className=' items-center flex flex-col '>
               <Title className='  text-[40px] font-bold'>Our Clinic</Title>
-              <Image src={LineImg} />
+              <Image src={LineImg}  alt='image'/>
           </div>
 
     

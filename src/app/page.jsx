@@ -10,20 +10,22 @@ import FaqsSection from './component/faqs/head/Index'
 import FormContent from './component/form/Index'
 import PartnersSection from './component/trustedPartners/Index'
 import FooterSection from './component/footer/Index'
+import LayoutComponent from './layout/Index'
 
 const page = () => {
   return (
     <div>
-      <NavComponent />
-      <HeroSection />
-      <ServiceSection />
-      <ClinicSection />
-      <TeamComponent />
-      <ContactSection />
-      <FaqsSection />
-      <FormContent />
-      <PartnersSection />
-      <FooterSection/>
+      <LayoutComponent>
+        <HeroSection />
+        <ServiceSection />
+        <ClinicSection />
+        <TeamComponent />
+        <ContactSection />
+        <FaqsSection />
+        <FormContent />
+        <PartnersSection />
+
+      </LayoutComponent>
 
     </div>
   )

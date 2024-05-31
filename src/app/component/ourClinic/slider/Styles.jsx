@@ -84,10 +84,13 @@ function SlickCarousel() {
         <div className=''>
             <Marquee>
                 {slides.map((data) => 
-                    <div className=' w-full  p-2' key={data.id}>
-                        <Image src={data.img } className='w-full'/>
+                    <div key={data.id}>
+
+                    <div className=' w-full  p-2' >
+                        <Image src={data.img } alt='image' className='w-full'/>
                         
                  </div>
+                    </div>
             )}
             </Marquee>
         </div>

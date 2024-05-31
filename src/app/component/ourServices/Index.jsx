@@ -12,7 +12,7 @@ const ServiceSection = () => {
 
         <div className=' items-center flex flex-col '>
           <Title className='  text-[40px] font-bold'>Our Services</Title>
-          <Image src={LineImg} />
+          <Image src={LineImg} alt='images' />
         </div>
 
         <Para className=' md:mt-10 '>Lorem ipsum dolor sit amet consectetur.
