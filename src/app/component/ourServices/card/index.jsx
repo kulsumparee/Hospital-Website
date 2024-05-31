@@ -11,7 +11,7 @@ const CardSection = () => {
 
     return (
         
-        <Card className=' mt-10 m-20  '>
+        <Card className=' m-20  '>
                 {CardDetails && CardDetails.map(data => (
                     <Carddiv key={data.id} className=' flex flex-col items-center bg-[#FDEBD0] ' >
                         <div className='  w-[60px] h-[60px]  mt-16 mb-5'>

@@ -4,7 +4,7 @@ import styled from "styled-components"
 export const Card = styled.div`
        display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 30px;
+    grid-gap: 30px;
   
     @media (max-width: 1024px) {
      display: grid;
@@ -13,9 +13,8 @@ export const Card = styled.div`
        
    }
     @media (max-width: 768px) {
-      display: block;
       
-      
+      grid-template-columns: repeat(1, 1fr); 
        
    }
 
